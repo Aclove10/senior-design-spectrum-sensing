@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+local_settings.*
+config.local.*
+wallets/
+keystore/
+
+# GNU Radio transient files (keep .grc and generated .py sources)
+*.grc.bak
+*.grc~
+.grc_gnuradio/
+.gnuradio/
+
+# Large RF captures and generated experiment outputs
+*.cfile
+*.iq
+*.sigmf-data
+experiments/raw/
+experiments/generated/
+simulation/generated/
+
+# Future blockchain dependencies and build outputs
+node_modules/
+blockchain/artifacts/
+blockchain/cache/
+blockchain/out/
+blockchain/broadcast/
